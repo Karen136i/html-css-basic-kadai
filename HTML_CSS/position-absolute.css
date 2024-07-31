@@ -1,0 +1,25 @@
+.parent {
+  position: relative;
+  /* relative	本来の表示位置を基準にした相対位置 */
+  height: 400px;
+  background-color: lightcyan;    
+}
+#first-div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+#second-div {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+#third-div {
+  position: absolute;
+  /* absolute	親要素を基準にした絶対位置 */
+    top: 50px;
+    right: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}

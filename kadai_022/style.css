@@ -1,0 +1,102 @@
+/* 全ての要素の余白を0にする */
+body, h1, p {
+  margin: 0;
+}
+
+/* p要素とa要素のフォントサイズを20pxにする */
+p, a {
+  font-size: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 10px;  /* 余白を上下左右とも10px */
+}
+
+#parent {
+  display: flex;
+  justify-content: space-between; /* 子要素を均等に間隔を配置する */
+}
+
+.contents {
+  flex-basis: 25%; /* 親要素の幅の25% */
+  border: 3px solid rgb(238, 204, 204); /* 線のスタイル */
+  padding: 10px 15px; /* 要素内の上下10px、左右15px余白 */
+  margin: 20px 0; /* 要素外の余白 */
+  /* justify-content: center; 中の要素を中央揃え */
+  display: flex; /* Flexコンテナに設定 */
+  flex-direction: column; /* 子要素を縦に並べる */
+  align-items: center; /* 子要素を水平中央揃え */
+}
+
+.contents h2 {
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 3px dotted rgb(236, 122, 122);
+}
+
+.contents h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+
+.contents p {
+  text-align: center;
+}
+
+.contents p #sky {
+  font-weight: bold; /* 太字 */
+  color: rgb(97, 206, 249); 
+}
+
+.contents img {
+  margin: 10px 0;
+  width: 70%; /* 幅70％ */
+}
+
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+
+}
+
+footer a:link {/* a:linkが未訪問リンク */
+  color: rgb(193, 234, 251);
+}
+
+footer a:hover { /* a:hoverはカーソルが乗ると色が変わる */
+  color: rgb(245, 178, 168);
+}
+
+/* a:visitedが訪問済みのリンク */
+/* footer a:visited {  */
+  /* color: green; */
+/* } */
+
+/* 画面幅が768px以下のときにスタイルが適用されます */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  #parent {
+    display: flex;
+    flex-direction: column; /* parent内の要素が縦に並ぶようにする */
+  }
+}
+
+

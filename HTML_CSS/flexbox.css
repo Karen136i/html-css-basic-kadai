@@ -1,0 +1,52 @@
+.flexbox-container {
+  display: flex;
+  /* 「flex-directionプロパティの値 flex-wrapプロパティの値」の順で一括指定します */
+  /* flex-flow: row wrap; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  /* flex-wrap: wrap; */
+  /* align-content: space-between; */
+  height: 500px;
+  padding: 5px;
+  background-color: lightcyan;
+}
+.flexbox-item {
+  padding: 5px;
+  margin: 5px;
+  background-color: orange;
+}
+
+#item01 {
+  /* order: 5; */
+  /* flex-basis: 150px; */
+  align-self: flex-start;
+}
+#item02 {
+  /* order: 6; */
+  /* flex-basis: 25%; */
+}
+#item03 {
+  /* order: 7; */
+  align-self: center;
+}
+#item04 {
+  /* order: 8; */
+}
+#item05 {
+  /* order: 1; */
+  align-self: flex-end;
+}
+#item06 {
+  /* order: 2; */
+}
+#item07 {
+  /* order: 3; */
+  /* flex-grow: 1; */
+  align-self: baseline;
+}
+#item08 {
+  /* order: 4; */
+  /* flex-grow: 2; */
+  flex-shrink: 2;
+}

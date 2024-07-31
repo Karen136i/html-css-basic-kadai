@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../練習"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SAMURAI"
+	}
+}

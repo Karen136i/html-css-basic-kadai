@@ -1,0 +1,31 @@
+/* p {
+  border: solid 5px yellow;   
+  padding: 10px;
+  margin: 10px;
+} */
+
+#first-paragraph {      
+  margin-bottom: 30px;
+  border: solid 5px yellow; 
+}
+
+#second-paragraph {      
+  /* padding: 100px; */
+  /* padding: 10px; */
+  /* margin: 10px; */ 
+  /* padding: 20px 15px 10px 5px;  */
+  /* margin: 15px 10px 5px 0px; */
+  /* 上から時計回りで書く 上・右・下・左の順 */
+
+  /* padding: 20px 10px; */
+  /* margin: 40px 20px; */
+  /* 「上下の余白は20px」「左右の余白は10px」というように、
+  余白の値を上下と左右の2つに分けて指定することもできます。 */
+ 
+  /* padding-left: 20px; /* 左の余白だけ指定する：padding-left・margin-leftプロパティ */
+  /* padding-right: 40px; 右の余白だけ指定する：padding-right・margin-rightプロパティ */
+   /* margin-top: 20px; 上の余白だけ指定する：padding-top・margin-topプロパティ */
+  /* margin-bottom: 40px; 下の余白だけ指定する：padding-bottom・margin-bottomプロパティ */ */
+  margin-top: 10px;
+  border: solid 5px yellow; 
+}

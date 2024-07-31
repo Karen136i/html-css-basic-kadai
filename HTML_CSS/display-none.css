@@ -1,0 +1,11 @@
+#first-paragraph {
+  background-color: yellow;
+}
+#second-paragraph {
+  display: none; /* display: none;を指定すると、その要素は非表示になります。 */
+  /* 「パソコンではナビゲーションメニューを表示させるがスマートフォンでは非表示にしたい」といった場合にdisplay: none;が役立ちます。 */
+  background-color: orange;
+}
+#third-paragraph {
+  background-color: pink;
+}

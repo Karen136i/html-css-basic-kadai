@@ -1,0 +1,26 @@
+/* ::beforeは、要素の直前にコンテンツ（文字や記号、アイコンなど）を追加する疑似要素です。 */
+/* ::beforeを使うには、以下のようにセレクタ（要素やクラス、id）の後に::beforeをつけるだけでOKです。これは他の疑似要素や疑似クラスでも同様です。 */
+h1::before {
+  content: "◆";
+  color: orange;
+}
+
+/* ::afterは、要素の直後にコンテンツ（文字や記号、アイコンなど）を追加する疑似要素です。::afterの使い方は::beforeと同じです。*/
+h1::after {
+  content: "■";
+  color: pink;
+}
+
+/* ::first-letterは、要素の最初の文字を装飾する疑似要素です。 */
+/* ::first-letterの使い方は基本的に::beforeや::afterと一緒ですが、::first-letterでは14章で学んだ文字装飾のプロパティを使います。 */
+/* p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+} */
+
+/* ::first-lineは、要素の最初の行を装飾する疑似要素です。::first-lineの使い方は::first-letterと同じです。 */
+p::first-line {
+  font-size: 24px;
+  font-weight: bold;
+  color: gray;
+}

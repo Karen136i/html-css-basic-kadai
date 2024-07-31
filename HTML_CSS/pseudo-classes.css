@@ -1,0 +1,40 @@
+.parent {
+  background-color: whitesmoke;
+}
+
+/* :linkは、未訪問のリンク（a要素など）にスタイルを適用する疑似クラスです。
+なお未訪問とは、「そのリンクにまだアクセスしたことがない状態」のことを指します。 */
+a:link {
+  color: orange;
+}
+
+/* :visitedは、訪問済みのリンク（a要素など）にスタイルを適用する疑似クラスです。
+なお訪問済みとは、「そのリンクにすでにアクセスしたことがある状態」のことを指します。 */
+a:visited {
+  color: green;
+}
+
+/* :hoverは、要素の上にマウスのカーソルが乗っているときにスタイルを適用する疑似クラスです。 */
+/* 使い方は:linkや:visitedと一緒ですが、:hoverはボタンなどリンク以外にも使われます。 */
+a:hover {
+  color: purple;
+}
+
+/* :activeは、要素がアクティブ状態のときにスタイルを適用する疑似クラスです。 */
+/* なお、アクティブ状態とは基本的に「マウスを左クリックしてから離すまで」の状態のことを指します。:activeはa要素やbutton要素などで使われます。 */
+a:active {
+  color: red;
+}
+
+.parent p:nth-child(4) {
+  color: red;
+}
+
+.parent p:nth-of-type(4) {
+  color: blue;
+}
+
+.parent :not(p) {
+  color: orange;
+  text-decoration: line-through;
+}

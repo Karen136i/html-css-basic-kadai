@@ -1,0 +1,66 @@
+#top {
+  width: 800px; /* 横幅を800px */
+  background-color: #dcc9f4;
+  margin: 20px auto; /* 上下に20pxの余白 */
+  display: flex; /* 横並び */
+  justify-content: center; /* 画面の中央に配置 */
+}
+
+.top-child {
+  width: 20%;  /* 親要素の20％ */
+  background-color: #ffd9df;
+  margin-right: 10px; 
+  text-align: center;
+}
+
+#middle {
+  position: relative; /* 本来の表示位置を基準にした相対位置 */
+  width: 800px; /* 横幅を800px */
+  height: 800px; /* 縦幅を800px */
+  margin: 20px auto;
+  background-color: #ffd9df ;
+}
+
+#middle-child01, #middle-child02, #middle-child03 {
+  position: absolute; /* 親要素(middle)を基準にした絶対位置 */
+  width: 200px;  /* 横幅を200px */
+  height: 200px; /* 縦幅を200px */
+  background-color: #87ceeb;
+}
+
+#middle-child01 {
+  top: 100px; /* 上から100px */
+  left: 100px; /* 左から100px */
+}
+
+#middle-child02 {
+  top: 300px; /* 上から300px */
+  left: 300px; /* 左から300px */
+}
+
+#middle-child03 {
+  top: 500px; /* 上から500px */
+  left: 500px; /* 左から500px */
+}
+
+#bottom {
+  width: 800px; /* 横幅を800px */
+  height: 300px; /* 縦幅を300px */
+  margin: auto; /* 画面の中央に配置 */
+  background-color: #87ceeb;
+}
+
+#bottom-child01, #bottom-child02, #bottom-child03 {
+  position: relative; /* 本来の表示位置を基準にした相対位置 */
+  width: 400px;  /* 横幅を400px */
+  height: 100px; /* 縦幅を100px */
+  background-color: #e5dcf0;
+}
+
+#bottom-child02 {
+  left: 200px; /* 本来の表示場所の左から200pxずらして配置 */
+}
+
+#bottom-child03 {
+  left: 400px; /* 本来の表示場所の左から400pxずらして配置 */
+}
