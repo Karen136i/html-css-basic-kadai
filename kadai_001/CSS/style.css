@@ -1,0 +1,118 @@
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.header-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 960px;
+}
+
+.header-1 a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 0 0 20px;
+  font-size: 34px;
+  border: 1px solid black;
+  padding: 0px 20px;
+}
+
+nav .menu {
+  display: flex;
+  padding-left: 0;
+  font-size: 34px;
+}
+
+nav li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  padding: 60px 0 40px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.about-1{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 960px;
+}
+
+.Asahina {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.lil {
+  font-size: 18px;
+}
+
+.works-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.view {
+  margin: 0 10px;
+  padding-bottom: 60px;
+  width: 25%;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  h2 {
+    padding: 30px 0 20px;
+    font-size: 28px;
+  }
+
+  .view {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+}
